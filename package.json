@@ -1,0 +1,34 @@
+{
+  "name": "twitter-webhook-app",
+  "version": "0.2.5",
+  "description": "",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "1.16.1",
+    "ejs": "2.5.7",
+    "express": "4.13.3",
+    "lodash": "4.17.4",
+    "nconf": "0.8.4",
+    "request": "2.79.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "1.17.4"
+  }
+}
